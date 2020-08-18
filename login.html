@@ -5,37 +5,17 @@
     <meta charset="UTF-8">
     <title>Mevlana | login</title>
     <meta name="viewport" content="width-device-width , initial-scale=1.0">
-
+    <!-- <script src="fontawesome-free/js/fontawesome.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="fontawesome-free/js/all.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/js.js"></script>
 </head>
 
 <body>
     <div class="content">
-        <div class="login-box">
-            <div class="log-container">
-                <form>
-                    <div class="form-group">
-                        <label for="fname">نام کاربری</label>
-                        <input type="text" id="fname" name="firstname" placeholder="نام کاربریتو وارد کن...">
-                    </div>
-                    <div class="form-group">
-                        <label for="pass">کلمه عبور</label>
-                        <input type="password" id="pass" name="password" placeholder="کلمه عبورتو وارد کن...">
-                    </div>
-                    <div class="btn-login-section">
-                        <div class="remember">
-                            <label for="rememberMe">مرا به خاطر بسپار</label>
-                            <input type="checkbox" value="lsRememberMe" id="rememberMe">
-
-                        </div>
-                        <a href="">کلمه عبور را فراموش کردی؟</a>
-
-                    </div>
-                    <button type="submit" class="btn">ورود به مولانا</button>
-                </form>
-            </div>
-        </div>
-
         <div class="mevlana-box">
             <div class="mevlana-container">
                 <div class="row">
@@ -50,6 +30,36 @@
 
             </div>
         </div>
+
+        <div class="login-box">
+            <div class="log-container">
+                <form>
+                    <div class="input-container">
+                        <label for="fname">نام کاربری</label>
+                        <i class="far fa-user-circle">  </i>
+                        <input type="text" id="fname" name="firstname" placeholder="نام کاربریتو وارد کن...">
+
+                    </div>
+                    <div class="input-container">
+                        <label for="pass">کلمه عبور</label>
+                        <i class="fas fa-lock"> </i>
+                        <input type="password" id="pass" name="password" placeholder="کلمه عبورتو وارد کن...">
+                        <span onclick="myFunction()"><i class="fa fa-eye "></i></span>
+                    </div>
+                    <div class="btn-login-section">
+                        <a href="">کلمه عبور را فراموش کردی؟</a>
+                        <div class="remember">
+                            <input type="checkbox" value="lsRememberMe" id="rememberMe">
+                            <label for="rememberMe">مرا به خاطر بسپار</label>
+                        </div>
+
+
+                    </div>
+                    <button type="submit" class="btn">ورود به مِولانا</button>
+                </form>
+            </div>
+        </div>
+
 
     </div>
 
